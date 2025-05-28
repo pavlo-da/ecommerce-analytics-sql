@@ -59,17 +59,6 @@ The final dataset includes only top 10 countries by:
 2. **Time Series Line Chart**:
    - `sent_msg` over `date` to observe engagement dynamics
 
-## ✅ Requirements
-
-- Google BigQuery environment with access to:
-  - `account`
-  - `account_session`
-  - `session`
-  - `session_params`
-  - `email_sent`
-  - `email_open`
-  - `email_visit`
-
 ## 📌 Notes
 
 - Email and account metrics are handled separately to avoid confusion with the `date` field logic.
